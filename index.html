@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Event</title>
+</head>
+<body>
+    <h1>Explore More Event</h1>
+    <button id="btn-event">Event</button>
+    <textarea name="" id="focus-event" rows="10" cols="30"></textarea>
+
+    <script> 
+        document.getElementById('btn-event').addEventListener('focus', function(){
+            console.log('Mouse now inside the input')
+        })
+
+
+        document.getElementById('btn-event').addEventListener('mouseenter', function(){
+            console.log('Event trigger')
+        })
+
+    </script>
+</body>
+</html>
